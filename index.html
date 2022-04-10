@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="apple-touch-icon" href="image/icon-24.png" />
+    <link rel="apple-touch-icon" href="image/icon-32.png" />
+    <link rel="apple-touch-icon" href="image/icon-48.png" />
+    <link rel="apple-touch-icon" href="image/icon-64.png" />
+    <link rel="apple-touch-icon" href="image/icon-72.png" />
+    <link rel="apple-touch-icon" href="image/icon-96.png" />
+    <link rel="apple-touch-icon" href="image/icon-128.png" />
+    <link rel="apple-touch-icon" href="image/icon-256.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#db4938" />
+    <meta name="theme-color" content="#db4938" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="manifest.json" />
+    <title>PWA: installable-website</title>
+  </head>
+  <body>
+    <h1 class="Test">TEST-Webpage</h1>
+    <script>
+      if ("serviceWorker" in navigator) {
+        navigator.serviceWorker.register("/service-worker.js");
+      } else {
+        console.log("Service worker is not supported");
+      }
+    </script>
+  </body>
+</html>
