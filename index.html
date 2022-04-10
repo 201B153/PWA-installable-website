@@ -19,6 +19,14 @@
   </head>
   <body>
     <h1 class="Test">TEST-Webpage</h1>
+    <button id="btn">Download</button>
+    <form id="email-form">
+      <input title="input" type="email" id="email-input" />
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+    <script type="module" src="indexDB.js"></script>
+    <script src="script.js"></script>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("/service-worker.js");
@@ -28,4 +36,3 @@
     </script>
   </body>
 </html>
-
