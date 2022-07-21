@@ -2,6 +2,7 @@ const DB_NAME = 'background-sync-db';
 const DB_VERSION = 1;
 const STORE_NAME = 'unsent-requests-store';
 
+
 const IDB = {
     initialize() {
         return new Promise((resolve, reject) => {

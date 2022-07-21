@@ -2,6 +2,7 @@
 
 let deferredPrompt;
 
+
 // Storing the installation prompt
 window.addEventListener("beforeinstallprompt", (event) => {
     deferredPrompt = event;

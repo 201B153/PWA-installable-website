@@ -1,9 +1,7 @@
-## PWA works as it allows a website be able to download directly from browser.
-# it works simply by just running the code on live server in VS code and clicking the doiwnload pop-up icon in search bar as you load the website in browser.
+# PWA - Make website's Offline
 
--> the offline is having issue else is working perfectly.
+- It works on simple principle it just download the website.
+- You have noticed the poping icon in search bar just cliking it will download the website.
+- there after you can use the website ofline for limited use.
 
-<!--
-Name: M.S. Tomar
-Modified on: 10 April 2022 22:29:51
--->
+...

@@ -9,6 +9,7 @@ const static_assets = [
     "/image/icon-64.png",
     "/image/icon-72.png",
     "/image/icon-96.png",
+    
     "/image/icon-128.png",
     "/image/icon-256.png",
 ]
